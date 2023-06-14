@@ -1,0 +1,49 @@
+{
+  "name": "hll-mine",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "supervisor ./server",
+    "pm2": "pm2 start server.json"
+  },
+  "dependencies": {
+    "@alicloud/dingtalk": "^1.1.97",
+    "@arcgis/core": "^4.22.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.5",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "debug": "~2.6.9",
+    "dingtalk-encrypt": "^2.1.1",
+    "express": "~4.16.4",
+    "express-jwt": "^5.3.3",
+    "http-errors": "~1.6.3",
+    "ioredis": "^4.27.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "log4js": "^3.0.6",
+    "md5": "^2.3.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.5",
+    "morgan": "~1.9.1",
+    "mssql": "^7.3.0",
+    "multer": "^1.4.3",
+    "mysql2": "^2.3.3",
+    "node-cmd": "^5.0.0",
+    "node-cron": "^3.0.0",
+    "node-rsa": "^1.1.1",
+    "node-xlsx": "^0.17.2",
+    "nodemailer": "^6.7.3",
+    "nodemon": "^2.0.16",
+    "sequelize": "^6.32.0",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^4.4.1",
+    "socket.io-redis": "^5.2.0",
+    "superagent": "^6.1.0",
+    "tedious": "^14.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
+}

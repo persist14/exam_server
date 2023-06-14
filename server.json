@@ -1,0 +1,25 @@
+{
+  "apps":[{
+
+    "name"        : "xbd-be",
+    "script"      : "server.js",
+    "cwd"         : "./",
+    "watch": false,
+    "ignore_watch" : [
+      "node_modules",
+      "logs",
+      "public",
+      "tmp"
+    ],
+    "watch_options": {
+      "followSymlinks": false
+    },
+    "instances"  : 5,
+    "error_file" : "./logs/app-err.log",
+    "out_file"   : "./logs/app-out.log",
+    "merge_logs": true,
+    "env": {
+        "NODE_ENV": "production"
+    }
+  }]
+}
