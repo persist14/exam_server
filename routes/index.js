@@ -1,5 +1,5 @@
 module.exports = (app) => {
-    app.use('/', require('./user')); // exam 接口
-    app.use('/ques', require('./ques'));
-    app.use('/logger', require('./logger'))
+    app.use('/api/', require('./user')); // exam 接口
+    app.use('/api/ques', require('./ques'));
+    app.use('/api/logger', require('./logger'))
 };

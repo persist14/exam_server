@@ -7,7 +7,7 @@ module.exports = async (req, res, next) => {
     //     time: '12:00:00',
     //     hash: 'sdhad',
     //     truth: '1'
-    const whilte = ['/login', '/register']
+    const whilte = ['/api/login', '/api/register']
     if(!whilte.includes(req.url) && req.method !== 'GET' ){
         const user = req.user
         loggerCreateService({
